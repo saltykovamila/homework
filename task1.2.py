@@ -48,9 +48,12 @@ my_favorite_songs_dict = {
     'Nowhere to Run': 2.58,
     'In This World': 4.02,
 }
+
 print('Три песни звучат', (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict))))
        + (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict)))) + 
        (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict)))), 'минут')
+
+
 
 # Дополнительно для пунктов A и B
 # Пункт C.
@@ -68,5 +71,8 @@ print(some_another_song)
 # Пункт D.
 # Переведите минуты и секунды в формат времени. Используйте модуль datetime 
 import datetime
+from datetime import datetime
+
+
 
 
