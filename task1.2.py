@@ -48,12 +48,9 @@ my_favorite_songs_dict = {
     'Nowhere to Run': 2.58,
     'In This World': 4.02,
 }
-
-a = random.choice(list(my_favorite_songs_dict))
-b = random.choice(list(my_favorite_songs_dict))
-c = random.choice(list(my_favorite_songs_dict))
-
-
+print('Три песни звучат', (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict))))
+       + (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict)))) + 
+       (my_favorite_songs_dict.get(random.choice(list(my_favorite_songs_dict)))), 'минут')
 
 # Дополнительно для пунктов A и B
 # Пункт C.
